@@ -88,7 +88,8 @@ header nav ul li{
 .background-images{
 /* display: flex;
 flex-wrap: wrap; */
-margin: 20px;
+/* margin: 20px; */
+width: 100%;
 }
 
 .top-image{
@@ -103,7 +104,7 @@ margin: 20px;
 }
 
 h4 {
-    /* display: flex;  */
+    
     text-align: right;
     background-color: aqua;
     color: darkblue;
@@ -112,34 +113,38 @@ h4 {
 .bottom-image{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 #led-wall{
     display:block;
     background-image: url(./images/LED-wall.webp);
     height: 150px;
-    width: 45%;
-    /* margin: left; */
+    width: 48%;
+    
 }
 #calculator{
     display: block;
     background-image: url(./images/Calculator.jpg);
     height: 150px;
-    width: 45%;
-    /* margin: left; */
+    width: 48%;
+    
 }
 #pastel{
     display: block;
     background-image: url(./images/Pastel-Pazzle.jpg);
     height: 150px;
-    width: 45%;
-    /* margin: left; */
+    width: 48%;
+    margin-top: 20px;
+    
 }   
 #run-buddy{
   display: block;
   background-image: url(./images/run-body.jpg);
   height: 150px;
-  width: 45%;
-  /* margin: left; */
+  width: 48%;
+  margin-top: 20px;
+  
 }
 footer{
     padding: 20px;
