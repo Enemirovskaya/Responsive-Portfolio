@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #f3f3f3;
+    background-color: #298cad;
 }
 header {
     padding: 20px;
@@ -81,8 +81,8 @@ header nav ul li{
     /* align-items: flex-start; */
     /* justify-content: space-around; */
 }
-.work h2{
-    padding: 0px 20px;
+#work-section{
+    padding-right:  20px;
 }
 
 .background-images{
@@ -96,11 +96,13 @@ width: 100%;
 
 }
 #MernStack {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     background-image: url(./images/mern-stack.webp);
     height: 300px;
     width: 100%;
-    /* margin: left; */
+    border: 7px solid lightseagreen;
 }
 
 h4 {
@@ -115,35 +117,48 @@ h4 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
+    
 }
 #led-wall{
-    display:block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     background-image: url(./images/LED-wall.webp);
     height: 150px;
     width: 48%;
+    border: 7px solid lightseagreen;
     
 }
 #calculator{
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     background-image: url(./images/Calculator.jpg);
     height: 150px;
     width: 48%;
+    border: 7px solid lightseagreen;
     
 }
 #pastel{
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     background-image: url(./images/Pastel-Pazzle.jpg);
     height: 150px;
     width: 48%;
     margin-top: 20px;
+    border: 7px solid lightseagreen;
     
 }   
 #run-buddy{
-  display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   background-image: url(./images/run-body.jpg);
   height: 150px;
   width: 48%;
   margin-top: 20px;
+  border: 7px solid lightseagreen;
   
 }
 footer{
