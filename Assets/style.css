@@ -65,6 +65,7 @@ header nav ul li{
     display: flex;
     align-items: flex-start ;
     justify-content: space-around;
+    margin: 20px
 }
 .info-about-me h3{
     padding: 0px 20px;
@@ -78,17 +79,13 @@ header nav ul li{
     display: flex;
     margin: 20px;
 
-    /* align-items: flex-start; */
-    /* justify-content: space-around; */
 }
 #work-section{
     padding-right:  20px;
 }
 
 .background-images{
-/* display: flex;
-flex-wrap: wrap; */
-/* margin: 20px; */
+
 width: 100%;
 }
 
@@ -100,6 +97,7 @@ width: 100%;
     justify-content: flex-end;
     align-items: flex-end;
     background-image: url(./images/mern-stack.webp);
+    background-size: cover;
     height: 300px;
     width: 100%;
     border: 7px solid lightseagreen;
@@ -124,6 +122,7 @@ h4 {
     justify-content: flex-end;
     align-items: flex-end;
     background-image: url(./images/LED-wall.webp);
+    background-size: cover;
     height: 150px;
     width: 48%;
     border: 7px solid lightseagreen;
@@ -134,6 +133,7 @@ h4 {
     justify-content: flex-end;
     align-items: flex-end;
     background-image: url(./images/Calculator.jpg);
+    background-size: cover;
     height: 150px;
     width: 48%;
     border: 7px solid lightseagreen;
@@ -144,6 +144,7 @@ h4 {
     justify-content: flex-end;
     align-items: flex-end;
     background-image: url(./images/Pastel-Pazzle.jpg);
+    background-size: cover;
     height: 150px;
     width: 48%;
     margin-top: 20px;
@@ -155,6 +156,7 @@ h4 {
     justify-content: flex-end;
     align-items: flex-end;
   background-image: url(./images/run-body.jpg);
+  background-size: cover;
   height: 150px;
   width: 48%;
   margin-top: 20px;
@@ -188,6 +190,10 @@ footer nav ul {
    list-style-type: none; 
 }
 
+footer nav ul li :hover ul {
+display: block;
+
+}
 footer nav ul li{
     font-family:Arial, Helvetica, sans-serif;
     display: inline-block;
